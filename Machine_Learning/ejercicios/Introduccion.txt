@@ -1,0 +1,5 @@
+programar es que dado unas variables y unas lógicas y normas fijas dan un cierto resultado
+
+machine learning es el uso de datos concretos a través de los que queremos saber una información concreta, no sabemos la función que se ha aplicado para llegar a el resultado
+
+Esta el otro machine learning que si ya sabes el resultado a partir de unos datos(crea una función aproximada que asocia unos datos a un resultado)

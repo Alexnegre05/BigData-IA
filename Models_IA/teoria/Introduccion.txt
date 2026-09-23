@@ -1,0 +1,21 @@
+Silogismo: si A implica B y B implica C, A implica C
+
+Aristóteles crea la lógica formal
+
+Autómatas: Que un robot imita comportamientos(gato chino que mueve la mano) 
+
+Descartes: Todo lo que hace el ser humano funciona como causa efecto menos la conciencia(Poder crear una maquina que fuese un cuerpo humano)
+
+Babbage: El precursor de el ordenador(Calculadora sofisticada)
+
+Loyalace: Invento el primer algoritmo computacional 
+
+Leibniz: Cosas que sobrepasan la lógica pero pueden ser objetivas
+
+Turing: Primer ordenador + test de Turing(si pones en frente a una maquina con una persona y la persona no sabe si es una maquina entonces será cuando una maquina piense como un humano) - Años 50
+
+Este test se ha pasado actualmente
+
+En los años 1956 se hace una cumbre y aparece el nombre de inteligencia artificial, se proyecto el posible futuro de la IA y la IA se impulsaba por las universidades y aparecieron los primeros modelos(la vieja IA)
+
+El invierno de la IA(se dejo de investigar y trabajar en la IA)
