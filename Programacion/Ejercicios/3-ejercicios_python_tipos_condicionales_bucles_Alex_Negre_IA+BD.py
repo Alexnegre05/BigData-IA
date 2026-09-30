@@ -214,6 +214,9 @@ else:
         print("Contraseña no valida")
 
 
+
+
+
 # Ejercicio 6. Inventario de productos 
 # Crea un diccionario donde las claves sean nombres de productos y los valores sean las unidades disponibles. 
 # inventario = { 
@@ -247,15 +250,84 @@ print(inventario)
 for key in inventario.keys(): # recorremos todas las keys de el diccionario
 
     if (inventario[key] == 0):
+
         print(key, "is agotado")
 
 sum = 0
 
 for value in inventario.values():
+
     sum = sum + value
 
 print("total unidades: ", sum)
 
 for key,value in inventario.items():
+
     if (value < 10):
         print(key, " tiene menos de 10 productos")
+
+
+
+
+
+
+# Ejercicio 7. Búsqueda en una lista 
+# Crea una lista de nombres de alumnos y una variable con el nombre que se quiere buscar. El programa debe: 
+# - Recorrer la lista buscando ese nombre. 
+# - Si encuentra el nombre, mostrar en qué posición está. 
+# - Cuando lo encuentre, detener la búsqueda. 
+# - Si no lo encuentra, mostrar Alumno no encontrado
+
+
+print("solucion ejercicio 6")
+
+
+
+lista = ["Alex","Isaac", "Elias", "Pau"]
+
+nombre = input("introduce nombre a buscar: ")
+
+alumno_encontrado = False
+
+for indice, elemento in enumerate(lista):# usamos enumerate para aber tanto el indice como el elemento de la lista
+
+    if (elemento == nombre):
+
+        print(" el alumno", nombre, "esta en la posicion ", indice) 
+
+        alumno_encontrado = True
+        break
+
+
+if (alumno_encontrado == False):
+
+    print("alumno no encontrado")
+
+
+
+# Ejercicio 8. Limpieza de datos 
+# Crea una lista con varios números, incluyendo positivos, negativos y ceros. 
+# El programa debe: 
+# - Recorrer la lista completa. 
+# - Ignorar los números negativos usando continue. 
+# - Sumar solo los números positivos. 
+# - Contar cuántos ceros hay. 
+# - Mostrar la suma final y la cantidad de ceros. 
+
+numeros = [3,5,-1,0,7,-12]
+sum = 0
+
+sum_0 = 0
+for i in range(0, len(numeros)):
+
+    if (numeros[i] < 0):
+        continue # con continue saltamos a la siguiente vuelta de el bucle
+
+    elif (numeros[i] > 0):
+        sum = sum + numeros[i]
+
+    else:
+        sum_0 = sum_0 + 1
+
+print("suma final: ", sum, " cantidad de 0: ", sum_0)
+
