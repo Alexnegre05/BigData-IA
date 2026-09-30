@@ -232,3 +232,30 @@ else:
 # - Mostrar cuántos productos tienen menos de 10 unidades.
 
 print("solucion ejercicio 6")
+
+inventario = {  
+ 
+ "ratón": 12, 
+ "teclado": 5, 
+ "monitor": 0, 
+ "cable": 25 
+
+}
+
+print(inventario)
+
+for key in inventario.keys(): # recorremos todas las keys de el diccionario
+
+    if (inventario[key] == 0):
+        print(key, "is agotado")
+
+sum = 0
+
+for value in inventario.values():
+    sum = sum + value
+
+print("total unidades: ", sum)
+
+for key,value in inventario.items():
+    if (value < 10):
+        print(key, " tiene menos de 10 productos")
